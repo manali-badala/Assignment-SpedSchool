@@ -1,0 +1,85 @@
+<div class="container" *ngFor="let dataset of purschaseAssessment">
+  <div class="col-md-12">
+    <div class="row custom-tab-section">
+      <div class="col-md-12 col-lg-6">
+        <h1 class="assessment-title pb-4">{{ dataset.testName }}</h1>
+        <div class="assessment-desc">
+          <p>
+            Educational Assessment Consists of two subjects - English And Maths
+            which Identifies the strength ad weakness of the child with respect
+            to learning disability, ADHD And Autism Spectrum Disorder.
+          </p>
+          <p>
+            It Includes worksheet to assess your child with subjective and
+            objective questions to be asked from the parents so as to have a
+            full evaluation of your child
+          </p>
+          <p>
+            On the basis of this assessment, Individualised education plan (IEP)
+            is designed which caters Directly to the pproblems of the child.
+          </p>
+          <a class="nav-link btn create-btn mt-5" href="#"
+            ><span>{{ dataset.learnBtn }}</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-6">
+        <div class="card purchase-card">
+          <div class="assessment-card">
+            <div class="card-body col-md-12">
+              <h5 class="card-title">{{ dataset.testName }}</h5>
+              <p class="card-text">{{ dataset.testCardDesc }}</p>
+            </div>
+          </div>
+          <div class="body">
+            <h5 class="course-title">This Course Includes</h5>
+            <ul class="">
+              <li class="list-item">
+                <img src="../../assets/web-app.PNG" alt="web-app" /> Mobile an
+                Web Applications
+              </li>
+              <li class="list-item">
+                <img
+                  src="../../assets/activity-learning.PNG"
+                  alt="activity-learning"
+                />
+                Activity Based Learning
+              </li>
+              <li class="list-item">
+                <img src="../../assets/worksheet.PNG" arc="worksheet" />
+                Worksheet Assessment
+              </li>
+              <li class="list-item">
+                <img
+                  src="../../assets/personal-coach.PNG"
+                  alt="personel-coach"
+                />
+                Personal Coach
+              </li>
+            </ul>
+            <div class="cart-button-group col-md-12">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <button
+                    type="button"
+                    class="custom-cart-btn btn btn-outline-primary"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+                <div class="col-12 col-md-6">
+                  <button type="button" class="custom-cart-btn btn btn-primary">
+                    Buy Now
+                  </button>
+                  <p class="buy-now-desc">
+                    Your child's future is more precious
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

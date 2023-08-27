@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.custom-padding{
+    padding-right: 5%;
+}
+
+
+.create-btn {
+    background: #6a53a2;
+    color: #ffffff !important;
+    border-radius: 10px;
+  text-align: center;
+  }
+
+
+ul{
+    list-style: none;
+}
+
+
+.assessment-card,
+.therapy-card,
+.learning-card{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.assessment-card{
+    background-image: linear-gradient(to bottom, transparent, black),url("../src/assets/assessment.jpg");
+    }
+
+
+.therapy-card{
+    background-image:linear-gradient(to bottom, transparent, black), url("../src/assets/therapy.jpg");
+
+}
+
+.learning-card{
+    background-image: linear-gradient(to bottom, transparent, black),url("../src/assets/learning.jpg");
+
+}
+
+
+.assessment-card .card-title,
+.therapy-card .card-title,
+.learning-card .card-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.assessment-card .card-text,
+.therapy-card .card-text,
+.learning-card .card-text{
+    color: white;
+}
+
+
+.card-body{
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    padding: 40px;
+}

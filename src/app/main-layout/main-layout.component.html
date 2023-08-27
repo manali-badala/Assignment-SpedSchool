@@ -1,0 +1,130 @@
+<!-- Our Services Section starts -->
+<section class="services-section">
+  <div class="container">
+    <div class="col-md-4 service-title-padding">
+      <h1 class="description-text">Our Services</h1>
+      <h3 class="description-text">
+        Solutions Exclusively Designed For Your Child
+      </h3>
+      <p>
+        Our Services Provide A Range Of Tech-Driven Customized Solutions For
+        Your Child's Cognitive Deficts
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Our Services Section ends -->
+
+<!-- Our Solutions Section starts -->
+<section class="solutions-section">
+  <div class="container">
+    <div class="col-12 title-section">
+      <h1 class="description-text">Our Exclusive Solutions</h1>
+      <p>
+        SpEd@Home Provides A Unique Blended Approach To Learning For Children
+        With Special Needs Making Learning Fun And Interesting.
+      </p>
+    </div>
+    <div class="card-section">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12 col-lg-4" *ngFor="let category of solutionsCategory">
+            <div class={{category.title}}>
+              <div class="card-body col-md-12">
+                <h5 class="card-title">{{category.name}}</h5>
+                <p class="card-text">{{category.description}}</p>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Our Solutions Section ends -->
+
+<!-- Assessments Section starts -->
+<section class="tabs-section">
+  <div class="container-fluid">
+    <div class="col-md-12">
+      <div class="row">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="assessment-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#assessment"
+              type="button"
+              role="tab"
+              aria-controls="assessment"
+              aria-selected="true"
+            >
+              Assessment
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="therapy-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#therapy"
+              type="button"
+              role="tab"
+              aria-controls="therapy"
+              aria-selected="false"
+            >
+              Therapy
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="learning-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#learning"
+              type="button"
+              role="tab"
+              aria-controls="learning"
+              aria-selected="false"
+            >
+              Learnings
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="assessment"
+            role="tabpanel"
+            aria-labelledby="assessment-tab"
+          >
+           <app-purchase-cart></app-purchase-cart>
+           
+          </div>
+          <div
+            class="tab-pane fade"
+            id="therapy"
+            role="tabpanel"
+            aria-labelledby="therapy-tab"
+          >
+            Under Development
+          </div>
+          <div
+            class="tab-pane fade"
+            id="learning"
+            role="tabpanel"
+            aria-labelledby="learning-tab"
+          >
+            Under Development
+          </div>
+        </div>
+        <div class="scroll-to-top" (click)="scrollToTop()">
+          <img src="../../assets/up-arrow.PNG" alt="up-arrow">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Assessments Section ends -->

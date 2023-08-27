@@ -1,0 +1,71 @@
+.services-section {
+  background-image: url("../../assets/capture.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  background-position: center;
+}
+
+.service-title-padding {
+  padding-top: 32%;
+}
+
+.description-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.solutions-section {
+  text-align: center;
+  background: #fcfcfc;
+  padding-bottom: 6%;
+}
+
+.title-section {
+  padding-top: 10%;
+  padding-bottom: 30px;
+}
+
+.tab-content {
+  background: #fcfcfc;
+  padding-top: 4%;
+  padding-bottom: 20%;
+}
+
+.nav-item {
+  margin-right: 5%;
+}
+
+.nav-tabs {
+  padding-bottom: 40px;
+  justify-content: center;
+  border: none;
+  padding-top: 40px;
+}
+
+.nav-link {
+  border: 0px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #8a8a8a;
+}
+
+.nav-link.active {
+  border-bottom: 5px solid #6a53a2 !important;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 7%;
+  right: 4%;
+  color: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .service-title-padding {
+    padding-top: 28%;
+  }
+}

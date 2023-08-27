@@ -1,0 +1,110 @@
+.assessment-card,
+.therapy-card,
+.learning-card {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.service-title-padding {
+  padding-top: 30%;
+}
+
+.tabs-section {
+  padding-top: 40px;
+}
+
+.custom-tab-section {
+  padding-top: 7%;
+}
+
+.purchase-card {
+  height: 800px;
+  margin-left: 180px;
+  padding: 20px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  border: 0px;
+}
+
+.purchase-card .assessment-card {
+  height: 300px;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 0px;
+}
+
+.purchase-card .card-body {
+  padding: 0px 0px 20px 0px !important;
+}
+
+.purchase-card .assessment-card .card-title {
+  padding: 0px;
+}
+
+.purchase-card .course-title {
+  padding: 0px;
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+.purchase-card ul {
+  padding-left: 0px;
+}
+
+.purchase-card ul li {
+  padding-bottom: 25px;
+}
+
+.cart-button-group {
+  margin-top: 15%;
+}
+
+.custom-cart-btn.btn {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.purchase-card .list-item img {
+  height: 40px;
+  padding-right: 20px;
+}
+
+.custom-cart-btn.btn-primary {
+  background-color: #6a53a2;
+  color: white;
+  border: none;
+}
+
+.custom-cart-btn.btn-outline-primary {
+  border-color: #6a53a2;
+  color: #6a53a2;
+}
+
+.buy-now-desc {
+  color: #6a53a2;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.create-btn {
+  width: max-content;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .purchase-card {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .create-btn {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
